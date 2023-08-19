@@ -32,19 +32,6 @@ body{
     background-repeat: no-repeat;
 }
 
-/* .main::before{
-    content: "";
-    position: absolute;
-    top:0;
-    left: 0;
-    inline-size: 100%;
-    block-size: 100%;
-    border-radius: 35px;
-    background-image: var(--gradient);
-    opacity: 0.45;
-    z-index: -1;
-} */
-
 .container{
     inline-size: 100%;
     block-size: 100%;
@@ -62,8 +49,6 @@ body{
 .socials{
     min-inline-size: 100%;
     block-size: 10em;
-    /* background-color: #5f66fb; */
-    /* place-self: start; */
 }
 
 .socials > span{
@@ -98,7 +83,6 @@ span:last-of-type:hover > i{
     font-family: 'Kaushan Script', cursive;
     text-align: center;
     font-size: 2em;
-    /* background-color: #5f66fb; */
 }
 
 h1{
@@ -106,28 +90,15 @@ h1{
     position: relative;
     overflow: hidden;
     background-image: var(--gradient);
-    /* background-size: 50%; */
     background-clip: text;
     color: #e39d3f;
     filter: drop-shadow(2px 2px 2px #dddbcb);
-    /* background-color: #b587f2; */
 }
-/* h1::before{
-    content: "";
-    position: absolute;
-    top:0;
-    left: 50%;
-    transform: translateX(-50%);
-    inline-size: 58%;
-    block-size: 100%;
-    background-color: #df7dd7;
-    z-index: -1;
-} */
+
 .para{
     inline-size: 70%;
     block-size: 5em;
     margin: auto;
-    /* background-color: #b587f2; */
     text-align: center;
     font-size: 1.25em;
 }
@@ -165,7 +136,6 @@ h1{
     transform-origin: left;
     transition: all 0.5s ease-in;
     border-radius: 50px;
-    /* z-index: -1; */
 }
 
 .btn:hover{
@@ -180,7 +150,6 @@ h1{
     inline-size: 50%;
     block-size: 4em;
     margin: auto;
-    /* background-color: #b587f2; */
     text-align: center;
     font-size: 1.25em;
 }
@@ -196,7 +165,6 @@ h1{
     background-image: url(https://images.unsplash.com/photo-1618845072579-853968656c0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1083&q=80);
     background-position: center;
     background-size: cover;
-    /* background-color: #b587f2; */
     animation-delay: 0.5s;
 }
 
@@ -236,7 +204,6 @@ h1{
     transform-origin: left;
     transition: all 0.5s ease-in;
     border-radius: 50px;
-    /* z-index: -1; */
 }
 
 .btn-aux:hover{
@@ -254,7 +221,6 @@ h1{
     transform-origin: center;
     opacity: 0;
     transition: all 0.3s ease-out;
-    /* transition-delay: 0.5s; */
 }
 
 
